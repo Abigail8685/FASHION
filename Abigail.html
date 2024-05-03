@@ -3,95 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Escuela Profecional de Administracion</title>
-
-    <img id="logo" src= "data:image/png;base64,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
-    " alt="Logo de Mi Página Personal"width="300" height="100">
-
-    <link rel="stylesheet" href="styles.css">
-  
-    
-    <style>
-        /* Estilos generales */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #cfcad8;
-    color: #200c0c;
-    padding: 20px;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: #6f6979;
-    text-decoration: none;
-}
-
-main {
-    padding: 20px;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-}
-
-        </style>
-</head>
-<body>
-    <header>
-        <h1>Bienvenido a Mi Página Web</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Acerca de</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>Abigail Nikol Mamani Callasaca</h2>
-            <p>Esta es una página de ejemplo creada con HTML y CSS.</p>
-        </section>
-    </main>
-    <footer>
-        <p>Derechos de autor &copy; 2024 Mi Empresa</p>
-    </footer>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Página Web Personal</title>
     <link rel="stylesheet" href="styles.css"> <!-- Enlace a tu archivo CSS -->
-
-    <styly>
-        
-        
-        </styly>
 </head>
 <body>
     <header>
@@ -102,8 +15,6 @@ footer {
                 <li><a href="#bibliografia">Bibliografía</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
-
-            
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
@@ -112,27 +23,12 @@ footer {
     <section id="inicio">
         <h2>Inicio</h2>
         <!-- Contenido de tu sección de Inicio -->
-        <p>Breve introducción sobre ti y tus intereses.</
-
-            <section id="video">
-                <h2>Video</h2>
-                <video controls>
-                    <source src="mi-video.mp4" type="video/mp4">
-                    Tu navegador no soporta el elemento de video.
-                </video>
-            </section>
-            
+        <p>Breve introducción sobre ti y tus intereses.</p>
     </section>
 
     <section id="bibliografia">
         <h2>Bibliografía</h2>
         <!-- Contenido de tu sección de Bibliografía -->
-
-        <video width="640" height="360" controls>
-            <source src="C:\pagina web abi\CRM.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-        </video>
-        
         <p>Información sobre tu formación académica y experiencias relevantes.</p>
     </section>
 
@@ -156,10 +52,6 @@ footer {
     <section id="contacto">
         <h2>Contacto</h2>
         <!-- Contenido de tu sección de Contacto -->
-
-        <img src="C:\ABIGAIL.HTML.descarga\.jpg" alt="Imagen de cabecera">
-    <h1>Bienvenido a la Página Web de [Tu Nombre]</h1>
-    
         <p>Puedes contactarme a través de:</p>
         <ul>
             <li>Email: tu@email.com</li>
